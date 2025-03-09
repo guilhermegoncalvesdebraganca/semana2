@@ -1,0 +1,136 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 30%;
+    background: #2c3e50;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.profile-pic {
+    width: 130px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid white;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ecf0f1;
+    margin-bottom: 5px;
+}
+
+.role {
+    font-size: 16px;
+    font-weight: bold;
+    color: #f39c12;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 14px;
+    color: #ecf0f1;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 18px;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 8px;
+    color: white;
+    text-align: left;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+ul li {
+    color: #ecf0f1;
+    margin: 8px 0;
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 10px 0;
+}
+
+.navbar ul li a {
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 70%;
+    padding: 40px;
+}
+
+.contact-info p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.experience, .education {
+    margin-top: 30px;
+}
+
+.job, .degree {
+    margin-bottom: 25px;
+}
+
+h4 {
+    font-size: 16px;
+    color: #f39c12;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.date {
+    font-size: 13px;
+    color: #d35400;
+    font-style: italic;
+    margin-bottom: 10px;
+}
